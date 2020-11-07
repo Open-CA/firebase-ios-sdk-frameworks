@@ -3,7 +3,7 @@ name: Build
 on:
   workflow_dispatch:
   schedule:
-   - cron:  '0 */6 * * *' # Every 6 hours
+   - cron:  '0 0 1 * *' # Every 6 hours
 
 jobs:
   latest_release:
@@ -17,8 +17,8 @@ jobs:
           fetch-depth: 0
       - name: GIT Setup
         run: |
-          git config --global user.name '@Salakar'
-          git config --global user.email 'Salakar@users.noreply.github.com'
+          git config --global user.name '@daniapopov'
+          git config --global user.email 'dania@o-p-e-n.com'
           git remote set-url origin git@github.com:$GITHUB_REPOSITORY
       - uses: webfactory/ssh-agent@v0.2.0
         with:
