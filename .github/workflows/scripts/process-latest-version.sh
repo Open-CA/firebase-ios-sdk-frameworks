@@ -173,7 +173,7 @@ redirect_url=$(echo "$redirect_url" | sed 's/\&amp\;/\&/g')
 mkdir -p .tmp
 
 # Cleanup previous output if it exists
-#rm -f .tmp/Firebase.zip
+rm -f .tmp/Firebase.zip
 rm -rf .tmp/Firebase
 
 # Download the zip
