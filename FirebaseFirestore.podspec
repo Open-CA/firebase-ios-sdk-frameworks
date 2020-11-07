@@ -9,10 +9,11 @@ Pod::Spec.new do |s|
   s.license          = 'Apache-2.0'
   s.source           = { :path => '.' }
   s.cocoapods_version = '>= 1.10.0'
-  s.authors          = 'Invertase Limited'
+  s.authors          = 'Open'
   s.vendored_frameworks = 'FirebaseFirestore/*.xcframework'
   s.preserve_paths      = 'FirebaseFirestore/*.xcframework'
   s.resource            = 'FirebaseFirestore/Resources/*.bundle'
+  s.source_files        = 'FirebaseFirestore/*.xcframework/*/*.framework/Headers/*.{h,m,swift}'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.static_framework = true
   
