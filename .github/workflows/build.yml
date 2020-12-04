@@ -20,7 +20,7 @@ jobs:
           git config --global user.name '@daniapopov'
           git config --global user.email 'dania@o-p-e-n.com'
           git remote set-url origin git@github.com:$GITHUB_REPOSITORY
-      - uses: webfactory/ssh-agent@v0.2.0
+      - uses: webfactory/ssh-agent@v0.4.1
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Set Github Token Securely
