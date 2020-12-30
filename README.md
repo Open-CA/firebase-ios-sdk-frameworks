@@ -58,6 +58,7 @@ The below are the currently supported Firebase iOS SDK versions of this reposito
 
 <!--NEW_VERSION_PLACEHOLDER-->
  - [7.3.0](https://github.com/invertase/firestore-ios-sdk-frameworks/releases/tag/7.3.0)
+ - [7.3.0](https://github.com/invertase/firestore-ios-sdk-frameworks/releases/tag/7.3.0)
  - [7.2.0](https://github.com/invertase/firestore-ios-sdk-frameworks/releases/tag/7.2.0)
  - [7.1.0](https://github.com/invertase/firestore-ios-sdk-frameworks/releases/tag/7.1.0)
  - [7.0.0](https://github.com/invertase/firestore-ios-sdk-frameworks/releases/tag/7.0.0)
